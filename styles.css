@@ -9,17 +9,13 @@ body, h1, h2, h3, p, ul, li {
     box-sizing: border-box;
 }
 
+
 body {
     line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    text-align: center;
 }
 
 header {
+    text-align: center;
     background-color: #2C3E50;
     color: #ffffff;
     padding: 20px 0;
@@ -53,26 +49,7 @@ nav ul li a:hover {
 
 section {
     padding: 50px 0;
-}
-
-.section-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.section-content {
-    flex: 1;
-    text-align: left;
-    padding: 0 20px;
-}
-
-.section-image {
-    flex: 1;
-    padding: 0 20px;
+    text-align: center;
 }
 
 section h2 {
@@ -80,10 +57,13 @@ section h2 {
 }
 
 section p {
+    margin: 0 auto;
+    max-width: 800px;
     line-height: 1.6;
 }
 
 footer {
+    text-align: center;
     background-color: #2C3E50;
     color: #ffffff;
     padding: 10px 0;
@@ -93,7 +73,6 @@ footer {
     padding: 10px 0;
     background-color: #1A242F;
 }
-
 .footer-bottom p {
     margin: 0;
     font-size: 14px;
